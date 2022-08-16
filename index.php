@@ -1,8 +1,10 @@
 <?php
 
 
+
+
             echo "sdfsdfj";
 
-$test = array("a" => "b");
 
-            ?>
+
+            $test = ["a" => "b"];
