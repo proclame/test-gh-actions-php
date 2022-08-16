@@ -10,3 +10,6 @@ jobs:
       uses: docker://oskarstark/php-cs-fixer-ga
       with:
         args: --allow-risky=yes
+        
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v4
