@@ -5,4 +5,8 @@
 
 $test = array("a" => "b");
 
+function testing ( $a,$b , $c){
+    return true;
+}
+
             ?>
