@@ -6,9 +6,7 @@ $finder = PhpCsFixer\Finder::create()
 
 $config = new PhpCsFixer\Config();
 return $config->setRules([
-        '@PSR12' => true,
-        'strict_param' => true,
-        'array_syntax' => ['syntax' => 'short'],
+        'no_closing_tag' => true,
         'no_extra_blank_lines' => true,
     ])
     ->setFinder($finder)
